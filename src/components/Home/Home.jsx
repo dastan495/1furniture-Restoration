@@ -1,5 +1,4 @@
 import React from "react";
-import "../../App.css";
 // block start
 import FirstBlock from "./Blocks/Block1/FirstBlock";
 import SeoBlock2 from "./Blocks/Block2/SeoBlock2";
@@ -11,17 +10,17 @@ import ProjectLocation from "./Blocks/Block7/ProjectLocation";
 // block end
 // строго использовать css.module
 const Home = () => {
-  return (
-    <div>
-      <FirstBlock />
-      <SeoBlock2 />
-      <OurPhotos />
-      <FrServer />
-      <WordsFrom />
-      <LatestPost />
-      <ProjectLocation />
-    </div>
-  );
+    return (
+        <div>
+            <FirstBlock />
+            <SeoBlock2 />
+            <OurPhotos />
+            <FrServer />
+            <WordsFrom />
+            <LatestPost />
+            <ProjectLocation />
+        </div>
+    );
 };
 
 export default Home;
